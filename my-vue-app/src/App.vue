@@ -2,16 +2,19 @@
 import HelloWorld from './components/HelloWorld.vue'
 import Modal from './components/Modal.vue'
 import Pophover from './components/Pophover.vue';
+import ForgetPassword from './views/auth/forgetPassword/ForgetPassword.vue';
+import OTPForm from './views/auth/forgetPassword/OTPForm.vue';
+import Login from './views/auth/Login.vue';
+import Register from './views/auth/Register.vue';
 </script>
 
 <template >
-<div className="bg-zinc-900 h-screen">
-   
-    <div class="ml-6">
-  <Pophover>
-    
-  </Pophover>
-</div>
+<div className="pb-3 min-h-[100vh]">
+   <div class="h-full">
+    <router-view />
+   </div>
+
+
   </div>
 
 

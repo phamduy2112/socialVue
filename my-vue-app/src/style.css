@@ -11,3 +11,7 @@
     background: linear-gradient(135deg, #000000, #0F172A);
 
   }
+
+  body{
+    font-size: 62.5%;
+  }
